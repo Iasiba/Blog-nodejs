@@ -120,14 +120,12 @@ const deleteMyPost=(req,res)=>{
     }
     return response
 }
-module.exports(
-    createPost,
+module.exports=
+    {createPost,
     getAllPosts,
     getMyPosts,
     getMyPostByID,
     getPostByID,
     getById,
     deleteMyPost,
-    editMyPost
-
-)
+    editMyPost}

@@ -39,12 +39,13 @@ const createPost =(data)=>{
     }
     return res
 }
-console.log(createPost({
-    title: "data.title",
-    content:"data.content",
-    header_image: "data.header_image",
-    user_id: "data.user_id,"
-}))
+
+//console.log(createPost({
+//    title: "data.title",
+//    content:"data.content",
+//    header_image: "data.header_image",
+//    user_id: "data.user_id,"
+//}))
 const allPosts=()=>{
     return postsDB
 }
